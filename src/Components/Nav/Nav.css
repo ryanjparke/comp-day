@@ -4,13 +4,14 @@
     background-color: black;
     display: flex;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .left_nav {
     width: 25%;
     display: flex;
     justify-content: space-around;
+    /* background-color: blue; */
 }
 .left_nav a {
     text-decoration: none;
@@ -19,5 +20,8 @@
     font-weight: lighter;
 }
 .right_nav {
+    padding-left: 20px;
     width: 30%;
+    float: right;
+    /* background-color: red; */
 }

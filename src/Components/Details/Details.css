@@ -1,0 +1,17 @@
+.details_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4e1e29; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.child_details {
+    width: 80%;
+    height: 30vh;
+    margin-top: 40px;
+    background-color: #c6b38e;
+    border-radius: 5px;
+    
+}

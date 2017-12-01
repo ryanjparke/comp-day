@@ -15,3 +15,14 @@
     border-radius: 5px;
     
 }
+.indv_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: thick solid white;
+}
+.indv_product a {
+    text-decoration: none;
+    color: black;
+    border: thin solid black;
+}

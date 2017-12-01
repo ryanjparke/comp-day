@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from './Components/Login/Login';
+import Browsing from './Components/Browsing/Browsing';
+import Details from './Components/Details/Details';
 
 
 class App extends Component {
@@ -10,7 +12,10 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            <Route component={Login} exact path='/' />
+            <Route component={ Login } exact path='/' />
+            <Route component={ Browsing } path='/browsing' />
+            <Route component={ Details } path='/details' />
+            {/* <Route component={ Cart } path='/cart' />  */}
           </Switch>
         </Router>
       </div>

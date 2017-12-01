@@ -13,10 +13,15 @@ class Nav extends Component {
         return (
             <div className="total_nav">
                 <div className="left_nav">
-                    <a>Browse</a>
-                    <a>Cart</a>
-                    <a>My Shelf</a>
+                    <Link to='/browsing'><a>Browse</a></Link>
+                    <Link to='/browsing'><a>Cart</a></Link>
+                    <Link to='/browsing'><a>My Shelf</a></Link>
                 </div>
+                <div className="right_nav">
+                    <Link to='/'><a>Logout</a></Link>
+                </div>
+
+
             </div>
 
         )

@@ -2,14 +2,22 @@
     width: 100vw;
     height: 10vh;
     background-color: black;
-    color: white;
     display: flex;
     align-items: center;
+    /* position: fixed; */
 }
 
 .left_nav {
     width: 25%;
     display: flex;
     justify-content: space-around;
-
+}
+.left_nav a {
+    text-decoration: none;
+    color: #c6b38e;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.right_nav {
+    width: 30%;
 }

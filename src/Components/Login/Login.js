@@ -31,7 +31,7 @@ class Login extends Component {
                         <input className="login_input" type='password' placeholder='Password' onChange={(e) => this.handleChange('password', e.target.value)} />
                         <div className="Lbutton_container" >
                             <Link to='/browsing'><button >Login </button></Link>
-                            <Link to='/'><button>Register </button></Link>
+                            <Link to='/browsing'><button>Register </button></Link>
                         </div>
                     </div>
 

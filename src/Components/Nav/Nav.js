@@ -14,8 +14,8 @@ class Nav extends Component {
             <div className="total_nav">
                 <div className="left_nav">
                     <Link to='/browsing'><a>Browse</a></Link>
-                    <Link to='/browsing'><a>Cart</a></Link>
-                    <Link to='/browsing'><a>My Shelf</a></Link>
+                    <Link to='/cart'><a>Cart</a></Link>
+                    <Link to='/shelf'><a>My Shelf</a></Link>
                 </div>
                 <div className="right_nav">
                     <Link to='/'><a>Logout</a></Link>

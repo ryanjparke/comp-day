@@ -16,18 +16,19 @@ class Browsing extends Component {
         }
 
     }
-    render () {
-        return(
+    render() {
+        return (
             <div className="browsing_container">
                 <Nav />
                 <div className="child_browse">
-                <h1>Browse Inventory</h1>
-                </div>
-                <div className="products_container">
-                    <div className="indv_product">
-                        <h2>The Hobbit</h2>
+                    <h1>Browse Inventory</h1>
+                    <div className="products_container">
+                        <div className="indv_product">
+                            <h2>The Hobbit</h2>
+                            <Link to="/details"><h3>Details</h3></Link>
                         </div>
                     </div>
+                </div>
             </div>
         )
 

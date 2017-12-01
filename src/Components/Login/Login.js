@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './Login.css';
+
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { addToCart } from '../../ducks/reducer'
 
 
 
 
 class Login extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             username: '',

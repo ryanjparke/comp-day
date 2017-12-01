@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './Login.css';
+
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { addToCart } from '../../ducks/reducer'
 
 
 
 
 class Login extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             username: '',
@@ -31,7 +34,7 @@ class Login extends Component {
                         <input className="login_input" type='password' placeholder='Password' onChange={(e) => this.handleChange('password', e.target.value)} />
                         <div className="Lbutton_container" >
                             <Link to='/browsing'><button >Login </button></Link>
-                            <Link to='/'><button>Register </button></Link>
+                            <Link to='/browsing'><button>Register </button></Link>
                         </div>
                     </div>
 

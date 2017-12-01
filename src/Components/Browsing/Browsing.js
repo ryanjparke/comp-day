@@ -7,8 +7,13 @@ import Nav from '../Nav/Nav';
 
 
 class Browsing extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            title: '',
+            author: ''
+        }
 
     }
     render () {
@@ -18,6 +23,11 @@ class Browsing extends Component {
                 <div className="child_browse">
                 <h1>Browse Inventory</h1>
                 </div>
+                <div className="products_container">
+                    <div className="indv_product">
+                        <h2>The Hobbit</h2>
+                        </div>
+                    </div>
             </div>
         )
 
